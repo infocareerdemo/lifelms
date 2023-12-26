@@ -1,8 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './Components/NavbarComp';
-import Javabasic from './Java/Javabasic';
-import JavaIntroduction from './Java/JavaIntroduction';
+// import Javabasic from './Java/Javabasic';
+// import JavaIntroduction from './Java/JavaIntroduction';
 
 function App() {
   return (

@@ -1,8 +1,8 @@
-import React, { useState, useRef } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import React, { useState } from 'react';
+// import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import Javabasic from '../Java/Javabasic';
 import JavaIntroduction from '../Java/JavaIntroduction';
