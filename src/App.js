@@ -1,13 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './Components/NavbarComp';
-// import Javabasic from './Java/Javabasic';
-// import JavaIntroduction from './Java/JavaIntroduction';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <NavbarComp path='/' />
+    <div>
+      <Router>
+        <NavbarComp />  
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
