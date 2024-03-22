@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lifelms/static/css/main.15524f7a.css",
+    "main.js": "/lifelms/static/js/main.1b696523.js",
+    "static/js/787.4f84eae4.chunk.js": "/lifelms/static/js/787.4f84eae4.chunk.js",
+    "index.html": "/lifelms/index.html",
+    "main.15524f7a.css.map": "/lifelms/static/css/main.15524f7a.css.map",
+    "main.1b696523.js.map": "/lifelms/static/js/main.1b696523.js.map",
+    "787.4f84eae4.chunk.js.map": "/lifelms/static/js/787.4f84eae4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15524f7a.css",
+    "static/js/main.1b696523.js"
+  ]
+}
