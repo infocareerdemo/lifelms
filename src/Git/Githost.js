@@ -5,7 +5,7 @@ import '../Components/Navbar.css';
 const Githost = () => {
     return (
         <div >
-            <p className='subheadCls'>Git Host From VsCode :</p>
+            <p className='subheadCls'>Git Host VsCode :</p>
             <div className='command-container'>
                 <span style={{ fontWeight: 'bold', color: 'black' }}>Git Tags To create a repository:</span>
                 <ul>
@@ -41,12 +41,17 @@ const Githost = () => {
                     <li>  "npm run deploy", </li>
                 </ul>
                 <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/rundeploy.png"} alt="Description of the image" />
-                <span className='subheadCls'>After deployed Its shows Published</span>
+                <span className='stepsCls'>4.After deployed Its shows Published</span>
               
                 <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/published.png"} alt="Description of the image" />
-                <span className='subheadCls'>After deploy we can able to see the deployed status</span>
+                <span className='stepsCls'>5.After deploy we can able to see the deployed status in action</span>
                
                 <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/Actions.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/Pagesstg.png"} alt="Description of the image" />
+                
+                <ul>
+                    <li>  "After the code is deployed in git we can able to access the url", </li>
+                </ul>
 
                 
             </div>

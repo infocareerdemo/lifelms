@@ -66,7 +66,7 @@ function NavbarComp() {
         },
         Git:{
             content: 'Git Hub',
-            list: ['Git Branch','Git Tag Release','Git Host From VsCode'],
+            list: ['Git Branch','Git Tag Release','Git Host VsCode'],
             courseName: "Git"
         },
         Ionic: {

@@ -56,7 +56,7 @@ const Home = () => {
                                 {
                                     topicName === "Git Branch" ? <Gitbranch /> :
                                     topicName === "Git Tag Release" ? <Gittag /> :
-                                    topicName === "Git Host From VsCode" ? <Githost></Githost> :
+                                    topicName === "Git Host VsCode" ? <Githost></Githost> :
 
                                         <></>
                                 }
