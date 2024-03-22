@@ -23,6 +23,7 @@ function NavbarComp() {
 
     useEffect(() => {
         setSelectedMenuItem("Java");
+        // setSelectedMenuItem("Git");
     },[])
 
     const handleMenuItemClick = (menuItem) => {
@@ -63,6 +64,11 @@ function NavbarComp() {
             list: ['Option X', 'Option Y', 'Option Z'],
             courseName: "react"
         },
+        Git:{
+            content: 'Git Hub',
+            list: ['Git Branch','Git Tag Release'],
+            courseName: "Git"
+        },
         Ionic: {
             content: 'Ionic Content',
             list: ['Apple', 'Banana', 'Orange', 'Grapes', 'Mango'],
@@ -79,7 +85,7 @@ function NavbarComp() {
 
     const courseData = [
         { courseName: 'Java', id: 1 }, { courseName: 'Python', id: 2 },
-        { courseName: 'React', id: 3 }, { courseName: 'Ionic', id: 4 },
+        { courseName: 'React', id: 3 }, { courseName: 'Git', id: 4 },
         { courseName: 'Net', id: 5 }, { courseName: 'Oracle', id: 6 },
         { courseName: 'JS', id: 7 }, { courseName: 'Angular', id: 8 },
         { courseName: 'HTML', id: 9 }, { courseName: 'CSS', id: 10 },

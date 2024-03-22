@@ -185,3 +185,26 @@
   margin-top: 30px;
   margin-left: 50px;
 }
+
+.command-container {
+  gap:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+li {
+  margin-bottom: 5px; /* Adjust the gap between each list item */
+}
+.stepsCls{
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+.subheadCls{
+  font-weight: bold;
+  color: black;
+}
+.imgCls{
+  width: 60%;
+}

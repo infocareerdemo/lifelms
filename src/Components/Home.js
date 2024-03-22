@@ -5,6 +5,8 @@ import JavaIntroduction from '../Java/JavaIntroduction';
 import JavaConculsion from '../Java/JavaConculsion';
 import JavaOpps from '../Java/JavaOpps.js';
 import Basicpython from "../Python/Basicpython.js";
+import Gitbranch from "../Git/Gitbranch.js";
+import Gittag from "../Git/Gittag.js";
 
 const Home = () => {
 
@@ -14,13 +16,13 @@ const Home = () => {
     const [courseName, setCourseName] = useState("")
 
     useEffect(() => {
-        if(params != null) {
+        if (params != null) {
             setTopicName(params.topicName)
             setCourseName(params.courseName)
         }
         else {
             setTopicName("Java Basic")
-        setCourseName("java")
+            setCourseName("java")
         }
     }, [params])
 
@@ -48,7 +50,15 @@ const Home = () => {
                                     <></>
                             }
                         </>
-                            : <></>
+                            :
+                            courseName === "Git" ? <>
+                                {
+                                    topicName === "Git Branch" ? <Gitbranch /> :
+                                    topicName === "Git Tag Release" ? <Gittag /> :
+                                        <></>
+                                }
+                            </>
+                                : <></>
                 }
             </div>
         </div>
