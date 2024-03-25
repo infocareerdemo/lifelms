@@ -7,6 +7,7 @@ import JavaOpps from '../Java/JavaOpps.js';
 import Basicpython from "../Python/Basicpython.js";
 import Gitbranch from "../Git/Gitbranch.js";
 import Gittag from "../Git/Gittag.js";
+import Githost from "../Git/Githost.js";
 
 const Home = () => {
 
@@ -55,7 +56,8 @@ const Home = () => {
                                 {
                                     topicName === "Git Branch" ? <Gitbranch /> :
                                     topicName === "Git Tag Release" ? <Gittag /> :
-                                    
+                                    topicName === "Git Host VsCode" ? <Githost></Githost> :
+
                                         <></>
                                 }
                             </>
