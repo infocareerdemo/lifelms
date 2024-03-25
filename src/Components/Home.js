@@ -8,6 +8,9 @@ import Basicpython from "../Python/Basicpython.js";
 import Gitbranch from "../Git/Gitbranch.js";
 import Gittag from "../Git/Gittag.js";
 import Githost from "../Git/Githost.js";
+import Buleandgreencmd from "../Cloud/Buleandgreencmd.js";
+import Blueandgreendeply from "../Cloud/Blueandgreendeply.js";
+import Bluepathyaml from "../Cloud/Bluepathyaml.js";
 
 const Home = () => {
 
@@ -61,6 +64,17 @@ const Home = () => {
                                         <></>
                                 }
                             </>
+                             :
+                             courseName === "Cloud" ? <>
+                                 {
+                                     topicName === "Blue & Green(Deployment Commands)" ? <Buleandgreencmd /> :
+                                     topicName === "Blue&Green(deployment)" ? <Blueandgreendeply /> :
+                                     topicName === "Bluepathyaml" ? <Bluepathyaml></Bluepathyaml>:
+ 
+                                         <></>
+                                 }
+                             </>
+                            
                                 : <></>
                 }
             </div>
@@ -69,3 +83,5 @@ const Home = () => {
 }
 
 export default Home;
+
+

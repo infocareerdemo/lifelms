@@ -69,9 +69,10 @@ function NavbarComp() {
             list: ['Git Branch','Git Tag Release','Git Host VsCode'],
             courseName: "Git"
         },
-        Ionic: {
+        Cloud: {
             content: 'Ionic Content',
-            list: ['Apple', 'Banana', 'Orange', 'Grapes', 'Mango'],
+            list: ['Blue & Green(Deployment Commands)', 'Blue&Green(deployment)', 'Bluepathyaml', 'Grapes', 'Mango'],
+            courseName:"Cloud"
         },
         Net: {
             content: '.NET Content',
@@ -86,7 +87,7 @@ function NavbarComp() {
     const courseData = [
         { courseName: 'Java', id: 1 }, { courseName: 'Python', id: 2 },
         { courseName: 'React', id: 3 }, { courseName: 'Git', id: 4 },
-        { courseName: 'Net', id: 5 }, { courseName: 'Oracle', id: 6 },
+        { courseName: 'Cloud', id: 5 }, { courseName: 'Oracle', id: 6 },
         { courseName: 'JS', id: 7 }, { courseName: 'Angular', id: 8 },
         { courseName: 'HTML', id: 9 }, { courseName: 'CSS', id: 10 },
         { courseName: 'Native', id: 11 }, { courseName: 'Swift', id: 12 },
