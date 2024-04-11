@@ -27,27 +27,27 @@ const Githost = () => {
                 <ul>
                     <li>  "homepage": "https://infocareerdemo.github.io/lifelms",</li>
                 </ul>
-                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/Examplepackge.png"} alt="Description of the image" />
-                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/package1.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/git/hostimg/Examplepackge.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/git/hostimg/package1.png"} alt="Description of the image" />
                 <span className='stepsCls'>2.Add the scripts in package.json :</span>
                 <ul>
                     <li>  "deploy": "gh-pages -d build", </li>
                     <li>  "build": "react-scripts build",</li>
                 </ul>
-                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/scripts.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/git/hostimg/scripts.png"} alt="Description of the image" />
 
                 <span className='stepsCls'>3.Command to deploy :</span>
                 <ul>
                     <li>  "npm run deploy", </li>
                 </ul>
-                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/rundeploy.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/git/hostimg/rundeploy.png"} alt="Description of the image" />
                 <span className='stepsCls'>4.After deployed Its shows Published</span>
               
-                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/published.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/git/hostimg/published.png"} alt="Description of the image" />
                 <span className='stepsCls'>5.After deploy we can able to see the deployed status in action</span>
                
-                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/Actions.png"} alt="Description of the image" />
-                <img className='imgCls' src={process.env.PUBLIC_URL + "/hostimg/Pagesstg.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/git/hostimg/Actions.png"} alt="Description of the image" />
+                <img className='imgCls' src={process.env.PUBLIC_URL + "/git/hostimg/Pagesstg.png"} alt="Description of the image" />
                 
                 <ul>
                     <li>  "After the code is deployed in git we can able to access the url", </li>

@@ -34,22 +34,22 @@ const Gittag = () => {
 
                     {/* <span className='stepsCls'>Step 2:</span> */}
                     <span className='stepsCls'>1.Check the tag in this repository:</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL + "/tagimg/checkthetaglst.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/tagimg/checkthetaglst.png"} alt="Description of the image" />
                     {/* <img className='imgCls' src="/createrep2.jpg.png" alt="Description of the image" /> */}
 
                     <span className='stepsCls'>2.Create tag in this repository :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL + "/tagimg/createtags.png"}  alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/tagimg/createtags.png"}  alt="Description of the image" />
                    
 
                      <span className='stepsCls'>3.Check the tag :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL + "/tagimg/chktagf.png"}  alt="Description of the image" /> 
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/tagimg/chktagf.png"}  alt="Description of the image" /> 
 
                     <span className='stepsCls'>4.Push the tag to the GitHub repository :</span>
-                    <img className='imgCls' src= {process.env.PUBLIC_URL + "/tagimg/puhtag.png"} alt="Description of the image" /> 
+                    <img className='imgCls' src= {process.env.PUBLIC_URL + "/git/tagimg/puhtag.png"} alt="Description of the image" /> 
 
                     <span className='stepsCls'> 5.Check the tag in the GitHub repository :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL + "/tagimg/chktag.png"} alt="Description of the image" /> 
-                    <img className='imgCls' src={process.env.PUBLIC_URL + "/tagimg/lastimg.png"} alt="Description of the image" /> 
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/tagimg/chktag.png"} alt="Description of the image" /> 
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/tagimg/lastimg.png"} alt="Description of the image" /> 
                 
                 </div>
             {/* <p>Java Basic list</p>

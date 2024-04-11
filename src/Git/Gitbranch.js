@@ -37,75 +37,58 @@ const Gitbranch = () => {
 
                     {/* <span className='stepsCls'>Step 2:</span> */}
                     <span className='stepsCls'>1.Create a repository on GitHub.</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL + "/branchimgs/createrep1.jpg.png"} alt="Description of the image" />
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/createrep2.jpg.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/createrep1.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/createrep2.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>2.Create a new Spring Boot project or use an existing project.</span>
 
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/createrep3.jpg.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/createrep3.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>3.Commit the project to the GitHub repository.</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/createrep4.jpg.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/createrep4.png"} alt="Description of the image" />
 
-                    
+
                     <span className='stepsCls'>4.Check the branch status :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/createrep5.jpg.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/createrep5.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>5.Create new branch :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/createrep6.jpg.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/createrep6.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>6.Checkout new branch :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/checkoutnew1.png"} alt="Description of the image" />
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/checkoutnew2.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/checkoutnew1.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/checkoutnew2.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>7.Added new method code in this project :8.Check the Git status :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/addednewmethod.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/addednewmethod.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>8.Check the Git status :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/gitstatus.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/gitstatus.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>9.Commit the code to a new branch :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/cmdthecode.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/cmdthecode.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>10.Check the status of the new branch in the GitHub repository :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/tenthnewbranch.png"} alt="Description of the image" />
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/tenthnewbranch2.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/tenthnewbranch.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/tenthnewbranch2.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>11.Check the head branch status :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/elevanthtopic.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/elevanthtopic.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>12.Check the new branch status :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/twelthimg.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/twelthimg.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>13.git checkout head and check the branch :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/onethree.png"} alt="Description of the image" />
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/onethreedotone.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/onethree.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/onethreedotone.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>14.The code changes are merged from the new branch(dev) to the 'head' branch :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/onefour.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/onefour.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>15.Push the code from the new branch(dev) to the head branch :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/onefive.png"} alt="Description of the image" />
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/onefive.png"} alt="Description of the image" />
 
                     <span className='stepsCls'>16.You can check the final code in the Git repository; the branch merge has been completed :</span>
-                    <img className='imgCls' src={process.env.PUBLIC_URL +"/branchimgs/onesix.png"} alt="Description of the image" />
-
-
-                    
-                
-
-
-
-{/* 
-                    <span className='stepsCls'>9.Commit the code to a new branch :</span>
-                    <img className='imgCls' src="/cmdthecode.png" alt="Description of the image" />
-
-                    <span className='stepsCls'>9.Commit the code to a new branch :</span>
-                    <img className='imgCls' src="/cmdthecode.png" alt="Description of the image" /> */}
-
-                
-               
-                    
+                    <img className='imgCls' src={process.env.PUBLIC_URL + "/git/branchimgs/onesix.png"} alt="Description of the image" />
                 </div>
 
             </p>
