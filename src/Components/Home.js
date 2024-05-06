@@ -11,6 +11,7 @@ import Githost from "../Git/Githost.js";
 import Buleandgreencmd from "../Cloud/Buleandgreencmd.js";
 import Blueandgreendeply from "../Cloud/Blueandgreendeply.js";
 import Bluepathyaml from "../Cloud/Bluepathyaml.js";
+import ExternalUrlAccesLocal from "../React/ExternalUrlAccesLocal.js";
 
 const Home = () => {
 
@@ -70,6 +71,15 @@ const Home = () => {
                                      topicName === "Blue & Green(Deployment Commands)" ? <Buleandgreencmd /> :
                                      topicName === "Blue&Green(deployment)" ? <Blueandgreendeply /> :
                                      topicName === "Bluepathyaml" ? <Bluepathyaml></Bluepathyaml>:
+ 
+                                         <></>
+                                 }
+                             </>
+                             :
+                             courseName === "React" ? <>
+                                 {
+                                     topicName === "Server Link Access In Local" ? <ExternalUrlAccesLocal /> :
+                                    
  
                                          <></>
                                  }

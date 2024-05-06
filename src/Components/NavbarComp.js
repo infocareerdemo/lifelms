@@ -60,9 +60,9 @@ function NavbarComp() {
             courseName: "python"
         },
         React: {
-            content: 'React Content',
-            list: ['Option X', 'Option Y', 'Option Z'],
-            courseName: "react"
+            content: 'React Js',
+            list: ['Server Link Access In Local', 'Option Y', 'Option Z'],
+            courseName: "React"
         },
         Git:{
             content: 'Git Hub',
